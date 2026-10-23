@@ -1,0 +1,24 @@
+# Backend — FastAPI
+fastapi==0.115.*
+uvicorn[standard]==0.30.*
+python-multipart==0.0.*
+pydantic==2.9.*
+sqlalchemy==2.0.*
+PyMySQL>=1.1
+
+# Auth
+passlib[bcrypt]>=1.7
+bcrypt>=4.2
+
+# FreeRADIUS / AAA
+django>=5.1.*; extra == "freeradius"  # for RADIUS dbm backend
+
+# JSON / misc
+jsonschema>=4.24.*
+python-dotenv>=1.0.*
+
+# Web frontend (dev)
+livereload>=2.6.*
+
+# Production
+gunicorn>=23.0.*
